@@ -56,7 +56,7 @@ class Person(QWidget):
 
 
     def kisiEkle(self):
-        self.ekle = kisiEkle.Ekle()
+        self.ekle = addPerson.Ekle()
         self.ekle.show()
         self.close()
     def kisiSil(self):

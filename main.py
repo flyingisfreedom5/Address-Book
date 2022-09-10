@@ -43,14 +43,14 @@ class Pencere(QWidget):
         self.show()
 
     def kisiler(self):
-        self.kisi = kisiler.Person()
+        self.kisi = persons.Person()
         self.kisi.show()
 
     def kisiEkle(self):
-        self.ekle = kisiEkle.Ekle()
+        self.ekle = addPerson.Ekle()
         self.ekle.show()
     def hakkindaSayfasi(self):
-        self.hakkinda = hakkinda.Hakkinda()
+        self.hakkinda = abouts.Hakkinda()
         self.hakkinda.show()
 
 
